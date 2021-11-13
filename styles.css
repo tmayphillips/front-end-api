@@ -1,0 +1,37 @@
+:root {
+    --font-family: "arial", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    --primary-color: #1c1fcf;
+    --secondary-color: #081ff0;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+  }
+
+body {
+    background-color:whitesmoke
+}
+
+h1, h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+li {
+    list-style: none
+}
+
+form {
+    justify-content: center;
+}
+
+.container {
+    
+    margin-top: 2rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px 2px var(--primary-shadow);
+}
